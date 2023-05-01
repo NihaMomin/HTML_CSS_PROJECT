@@ -1,0 +1,42 @@
+Page Basics:
+
+tag -> instruction
+tag name -> specfiction fucntion/ instruction
+nested tags -> tags within tag
+title -> webpage title (bookmark uses this name bydefault)
+head -> title and meta tag nested inside head tag
+meta tage doesnt have closing tag -> void tags -> single line instruction -> self closing tags
+e.g <meta charset = "">, where charset is called an attribute
+doctype tag -> tells browser that file contains html content
+html tag -> contains:  head (to setup page, and ocntent inside doesnt show on the page) and body tag (content appeasrs on page)
+body -> contain all veiwbale content
+whitespaces -> additional whitespaces are ignored when html is rendered on browser
+comment -> <!-- jaefbhf -->
+html is not case sensitive HEAD = head tag 
+file names -> .html or htm
+use _ instead of name while naming files 
+
+
+Text Basics:
+heading tag -> h1,h2,h3 (we have 6 head tags in total)
+p tag -> paragraph
+break -> new line: br tag
+bold text -> strong tag or b tag
+italic -> em tag or i tag
+
+Text Formatting:
+section tag -> heading wise section seperation
+article tag / aside tag -> seperate paragraph/ text
+block quote -> quote (centre text)
+
+Lists:
+ordered list -> ol tag with li tags inside -> numbered
+unordered list -> ul tag and li tag insides  -> bullets
+list within list (nested ols/ uls within li), we can provide type attribute with it too for the type of bullets/ numbering (numner or alphabets (samll or capital))
+definition list -> dt (term tag) and dd (description tag) (term and its def)
+
+Images:
+img tag
+large images makes website slowers as they take longer to render (set width and height) so website set/ allocate specific size of page to that image and render other things
+alt -> img name/ text (but not visible)
+figure tag - >can figcaption tag too to caption the img, figure can have multipe images too
